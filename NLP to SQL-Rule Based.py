@@ -220,7 +220,7 @@ import speech_recognition as sr
 global query
 r=sr.Recognizer()
 
-myconn = mysql.connector.connect(host = "localhost", user = "root" ,password = "Akshat@111")  
+myconn = mysql.connector.connect(host = "localhost", user = "root" ,password = "password")  
 #starting the connection
 exe=myconn.cursor()
 db=exe.execute('use nlp;')
